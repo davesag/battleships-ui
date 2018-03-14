@@ -2,8 +2,8 @@
 
 The UI for the Battleships smart contract developed within the Blockchain Bootcamp
 
-* `develop` [circleCI badge] [codecov badge]
-* `master` [circleCI badge] [codecov badge
+* `develop` [![CircleCI](https://circleci.com/gh/industrieco/battleships-ui/tree/develop.svg?style=svg)](https://circleci.com/gh/industrieco/battleships-ui/tree/develop) [codecov badge]
+* `master` [![CircleCI](https://circleci.com/gh/industrieco/battleships-ui/tree/master.svg?style=svg)](https://circleci.com/gh/industrieco/battleships-ui/tree/master) [codecov badge
 
 ## Development
 
