@@ -33,7 +33,7 @@ jobs:
 
       - run:
           name: Javascript Linter
-          command: npm run lint:js
+          command: npm run lint
 
       - run:
           name: Unit tests with code coverage
