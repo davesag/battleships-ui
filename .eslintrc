@@ -1,17 +1,33 @@
 {
-  "extends": "eslint:recommended",
-  "env": {
-    "browser": true,
-    "commonjs": true,
-    "node": true,
-    "es6": true
-  },
+  "extends": [
+    "standard",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react",
+    "prettier/standard"
+  ],
+  "plugins": [
+    "react",
+    "prettier",
+    "standard",
+    "jest"
+  ],
   "parserOptions": {
-    "ecmaVersion": 6
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "globals": {
+    "fetch": true,
+    "Headers": true
   },
   "rules": {
-    "no-console": "off",
-    "strict": ["error", "global"],
-    "curly": "warn"
+    "prettier/prettier": ["error", { "singleQuote": true, "semi": false }]
   }
 }
